@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="../../../css/main.min.css">
+  <title>Домашня робота</title>
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__wrapper">
+      <div class="header__contacts">
+        <div class="header__contacts-text">
+          <img src="../../../img/contact-support-icon.svg" width="17" height="20" alt="icon">
+          <span>Для замовлення консультанцій:</span>
+        </div>
+        <a class="header__contacts-phone" href="tel:+38 (099) 6 800 900">+38 (099) 6 800 900</a>
+        <a class="header__contacts-phone" href="tel:+38 (097) 6 800 900">+38 (097) 6 800 900</a>
+        <a class="header__contacts-phone" href="tel:+38 (073) 6 800 901">+38 (073) 6 800 901</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrapper">
+    <nav class="nav nav-books">
+      <a href="#" onclick="history.back();" class="nav__back">
+        <svg width="12" height="21" viewBox="0 0 12 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M9.53714 20.0827L0.292152 10.9458C-0.097384 10.5612 -0.097384 9.93981 0.292152 9.5542L9.53714 0.417333C10.0995 -0.139111 11.0144 -0.139111 11.5777 0.417333C12.14 0.973776 12.14 1.87687 11.5777 2.43332L3.66913 10.2505L11.5777 18.0657C12.14 18.6231 12.14 19.5262 11.5777 20.0827C11.0144 20.6391 10.0995 20.6391 9.53714 20.0827Z"
+            fill="#007AFF" />
+        </svg>
+        <span>Назад</span>
+      </a>
+
+      <div class="nav__tabs">
+        <button class="nav__tabs-btn nav__tabs-btn--active">Offline</button>
+        <button class="nav__tabs-btn">Online</button>
+      </div>
+
+      <div class="nav__register">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd"
+            d="M11.4426 1.25001C11.7443 1.24996 12.0097 1.24991 12.25 1.25502V5.8L12.25 5.83043C12.25 6.36459 12.25 6.81044 12.2797 7.17467C12.3108 7.55455 12.3779 7.91121 12.5497 8.24847C12.8134 8.76592 13.2341 9.18662 13.7515 9.45027C14.0888 9.62211 14.4454 9.68922 14.8253 9.72026C15.1895 9.75002 15.6354 9.75001 16.1695 9.75H16.1695H16.2H20.7359C20.7501 10.0445 20.7501 10.3774 20.75 10.784V10.7841L20.75 10.8675V15.6V15.633C20.75 16.7252 20.75 17.5907 20.693 18.2883C20.6347 19.0017 20.5131 19.6053 20.2323 20.1565C19.7769 21.0502 19.0502 21.7769 18.1565 22.2323C17.6053 22.5131 17.0017 22.6347 16.2883 22.693C15.5906 22.75 14.7252 22.75 13.633 22.75H13.6H10.4H10.367C9.27484 22.75 8.40935 22.75 7.71173 22.693C6.99835 22.6347 6.39472 22.5131 5.84355 22.2323C4.94978 21.7769 4.22312 21.0502 3.76772 20.1565C3.48688 19.6053 3.36527 19.0017 3.30699 18.2883C3.24999 17.5907 3.24999 16.7252 3.25 15.633V15.633V15.6V8.40002V8.36702V8.36701C3.24999 7.27487 3.24999 6.40937 3.30699 5.71175C3.36527 4.99837 3.48688 4.39474 3.76772 3.84357C4.22312 2.9498 4.94978 2.22314 5.84355 1.76774C6.39472 1.4869 6.99835 1.36529 7.71173 1.30701C8.40936 1.25001 9.27486 1.25002 10.367 1.25002L10.4 1.25002H11.349L11.4426 1.25001ZM20.1775 7.71898C20.2706 7.89096 20.3528 8.06832 20.4239 8.25H16.2C15.6276 8.25 15.2434 8.24942 14.9475 8.22524C14.6604 8.20178 14.5231 8.1599 14.4325 8.11376C14.1973 7.99392 14.0061 7.80269 13.8862 7.56749C13.8401 7.47693 13.7982 7.33965 13.7748 7.05252C13.7506 6.75664 13.75 6.37243 13.75 5.8V1.46314C14.1268 1.57999 14.488 1.74344 14.825 1.94998C15.3053 2.24432 15.7103 2.64944 16.3387 3.27807L16.4048 3.34421L17.5303 4.46969C17.5439 4.48326 17.557 4.49735 17.5694 4.51193L19.0287 6.21438L19.083 6.27771L19.083 6.27773L19.083 6.27775C19.6016 6.88252 19.9358 7.27237 20.1775 7.71898ZM15 15.75C15.4142 15.75 15.75 15.4142 15.75 15C15.75 14.5858 15.4142 14.25 15 14.25H9C8.58579 14.25 8.25 14.5858 8.25 15C8.25 15.4142 8.58579 15.75 9 15.75H15Z"
+            fill="#330656" />
+        </svg>
+
+        <span>Журнал</span>
+      </div>
+    </nav>
+
+    <div class="single-book">
+      <div class="single-book-left">
+        <div class="title-wrapper">
+          <img class="book-img" src="../Большакова.jpg" alt="book">
+          <h1 class="book-title">Українська мова. Буквар</h1>
+        </div>
+        <div class="searchbar">
+          <form action="#" class="form">
+            <input type="text" class="form__input" placeholder="Пошук">
+            <button class="form__button"></button>
+          </form>
+        </div>
+
+        <div class="list">
+          <ul>
+            <a class="list__item" href="808980022">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H15C20 22 22 20 22 15Z" stroke="#330656"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M2.52002 7.10999H21.48" stroke="#330656" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M8.52002 2.10999V6.96999" stroke="#330656" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M15.48 2.10999V6.51999" stroke="#330656" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path
+                  d="M9.75 14.45V13.25C9.75 11.71 10.84 11.08 12.17 11.85L13.21 12.45L14.25 13.05C15.58 13.82 15.58 15.08 14.25 15.85L13.21 16.45L12.17 17.05C10.84 17.82 9.75 17.19 9.75 15.65V14.45V14.45Z"
+                  stroke="#330656" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+              <div class="list__item-title" for="two">Про наголос</div>
+            </a>
+
+            <a class="list__item" href="808980560">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H15C20 22 22 20 22 15Z" stroke="#330656"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M2.52002 7.10999H21.48" stroke="#330656" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M8.52002 2.10999V6.96999" stroke="#330656" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M15.48 2.10999V6.51999" stroke="#330656" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path
+                  d="M9.75 14.45V13.25C9.75 11.71 10.84 11.08 12.17 11.85L13.21 12.45L14.25 13.05C15.58 13.82 15.58 15.08 14.25 15.85L13.21 16.45L12.17 17.05C10.84 17.82 9.75 17.19 9.75 15.65V14.45V14.45Z"
+                  stroke="#330656" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+              <div class="list__item-title">Правильна вимова загальновживаних слів</div>
+            </a>
+
+            <a class="list__item" href="802670818">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H15C20 22 22 20 22 15Z" stroke="#330656"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M2.52002 7.10999H21.48" stroke="#330656" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M8.52002 2.10999V6.96999" stroke="#330656" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M15.48 2.10999V6.51999" stroke="#330656" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path
+                  d="M9.75 14.45V13.25C9.75 11.71 10.84 11.08 12.17 11.85L13.21 12.45L14.25 13.05C15.58 13.82 15.58 15.08 14.25 15.85L13.21 16.45L12.17 17.05C10.84 17.82 9.75 17.19 9.75 15.65V14.45V14.45Z"
+                  stroke="#330656" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+              <div class="list__item-title" for="two">Вправа «Омографи»</div>
+            </a>
+          </ul>
+
+          <div class="list-title" style="font-weight: 700; padding-left: 30px; margin-bottom: 10px;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M11.7696 3.00752C11.9219 2.97894 12.0783 2.97894 12.2306 3.00752C12.3783 3.03524 12.5322 3.10457 13.0958 3.38638L20.6646 7.17084C21.0351 7.35608 21.4856 7.20591 21.6709 6.83543C21.8561 6.46494 21.7059 6.01444 21.3355 5.8292L13.7666 2.04474L13.6883 2.00554C13.2403 1.78116 12.8879 1.60468 12.5072 1.53324C12.1721 1.47037 11.8281 1.47036 11.493 1.53324C11.1123 1.60467 10.7599 1.78115 10.3119 2.00554L10.2336 2.04473L2.66463 5.8292C2.29415 6.01444 2.14398 6.46494 2.32922 6.83542C2.51446 7.20591 2.96497 7.35608 3.33545 7.17084L10.9044 3.38638C11.468 3.10457 11.6219 3.03524 11.7696 3.00752ZM11.7696 7.00752C11.9219 6.97894 12.0783 6.97894 12.2306 7.00752C12.3783 7.03524 12.5322 7.10457 13.0958 7.38638L18.1242 9.90059C19.0204 10.3487 19.324 10.5091 19.547 10.7203C19.8309 10.989 20.0398 11.3271 20.1532 11.7011C20.2423 11.995 20.2501 12.3384 20.2501 13.3404V14.75C20.2501 15.9476 20.2464 16.4369 20.1684 16.8292C19.833 18.5151 18.5151 19.833 16.8292 20.1684C16.4966 20.2345 16.0944 20.2472 15.2501 20.2495V17C15.2501 15.2051 13.795 13.75 12.0001 13.75C10.2051 13.75 8.75006 15.2051 8.75006 17V20.2495C7.90572 20.2472 7.50348 20.2345 7.17095 20.1684C5.48499 19.833 4.16706 18.5151 3.83171 16.8291C3.75368 16.4369 3.75005 15.9476 3.75005 14.75L3.75005 13.3404C3.75004 12.3384 3.75775 11.995 3.84689 11.7011C3.96032 11.3271 4.16924 10.989 4.45306 10.7203C4.67608 10.5091 4.97973 10.3487 5.87595 9.9006L10.9044 7.38638C11.468 7.10457 11.6219 7.03524 11.7696 7.00752ZM12.5072 5.53324C12.1721 5.47037 11.8281 5.47036 11.493 5.53324C11.1123 5.60467 10.7599 5.78115 10.3119 6.00554L10.2336 6.04473L5.20513 8.55895L5.10359 8.60969L5.10359 8.60969C4.34827 8.987 3.82694 9.24743 3.42174 9.6311C2.94871 10.079 2.60051 10.6424 2.41145 11.2658C2.2495 11.7998 2.24971 12.3826 2.25002 13.2269L2.25005 13.3404L2.25005 14.75L2.25004 14.8511C2.24994 15.9163 2.24987 16.5654 2.36053 17.1218C2.81424 19.4028 4.59733 21.1858 6.87832 21.6395C7.43463 21.7502 8.08372 21.7501 9.14896 21.75H9.14903L9.25006 21.75L9.25418 21.7501C9.27788 21.7504 9.38367 21.752 9.48539 21.7317C9.86225 21.6568 10.1568 21.3622 10.2318 20.9853C10.252 20.8836 10.2505 20.7778 10.2501 20.7541L10.2501 20.75V17C10.2501 16.0335 11.0336 15.25 12.0001 15.25C12.9666 15.25 13.7501 16.0335 13.7501 17V20.75L13.75 20.7541C13.7497 20.7779 13.7481 20.8836 13.7683 20.9854C13.8433 21.3622 14.1379 21.6568 14.5147 21.7318C14.6164 21.752 14.7222 21.7504 14.7459 21.7501L14.7501 21.75L14.8511 21.75H14.8511C15.9164 21.7501 16.5655 21.7502 17.1218 21.6395C19.4028 21.1858 21.1859 19.4028 21.6396 17.1218C21.7502 16.5655 21.7502 15.9164 21.7501 14.8511L21.7501 14.75V13.3404L21.7501 13.2269C21.7504 12.3825 21.7506 11.7998 21.5886 11.2658C21.3996 10.6424 21.0514 10.079 20.5784 9.63111C20.1732 9.24743 19.6518 8.987 18.8965 8.60969L18.795 8.55895L13.7666 6.04474L13.6883 6.00554L13.6883 6.00554C13.2403 5.78116 12.8879 5.60467 12.5072 5.53324Z"
+                fill="#FF8A00"></path>
+            </svg>
+            Учням додому
+          </div>
+          <ul>
+
+            <a class="list__item" href="802670801">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H15C20 22 22 20 22 15Z" stroke="#330656"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M2.52002 7.10999H21.48" stroke="#330656" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M8.52002 2.10999V6.96999" stroke="#330656" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M15.48 2.10999V6.51999" stroke="#330656" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path
+                  d="M9.75 14.45V13.25C9.75 11.71 10.84 11.08 12.17 11.85L13.21 12.45L14.25 13.05C15.58 13.82 15.58 15.08 14.25 15.85L13.21 16.45L12.17 17.05C10.84 17.82 9.75 17.19 9.75 15.65V14.45V14.45Z"
+                  stroke="#330656" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+              <div class="list__item-title" for="two">Вправа «Омографи»</div>
+            </a>
+
+            <a class="list__item" href="802670847">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M22 15V9C22 4 20 2 15 2H9C4 2 2 4 2 9V15C2 20 4 22 9 22H15C20 22 22 20 22 15Z" stroke="#330656"
+                  stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M2.52002 7.10999H21.48" stroke="#330656" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M8.52002 2.10999V6.96999" stroke="#330656" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path d="M15.48 2.10999V6.51999" stroke="#330656" stroke-width="1.5" stroke-linecap="round"
+                  stroke-linejoin="round" />
+                <path
+                  d="M9.75 14.45V13.25C9.75 11.71 10.84 11.08 12.17 11.85L13.21 12.45L14.25 13.05C15.58 13.82 15.58 15.08 14.25 15.85L13.21 16.45L12.17 17.05C10.84 17.82 9.75 17.19 9.75 15.65V14.45V14.45Z"
+                  stroke="#330656" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+              <div class="list__item-title" for="two">Вправа «Омографи»</div>
+            </a>
+
+
+          </ul>
+        </div>
+      </div>
+
+      <div class="single-book-right">
+        <div class="lesson-info">
+          <div class="lesson-info__date">4 квітня</div>
+          <div class="lesson-info__title">Класна робота</div>
+          <div class="lesson-info__theme">Тема: <span class="lesson-info__theme--colored">Наголос. Текст. Тема тексту.
+            </span>
+          </div>
+        </div>
+        <div class="media">
+          <img src="!_1_028_Наголос. Текст. Тема тексту.jpg" alt="">
+        </div>
+      </div>
+  </main>
+  <footer class="footer"></footer>
+  <script src="../../../js/common.js"></script>
+</body>
+
+</html>
